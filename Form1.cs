@@ -80,10 +80,5 @@ namespace Pratybos_2
                 ntarpai--;
             }
         }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
