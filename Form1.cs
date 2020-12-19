@@ -42,6 +42,7 @@ namespace Pratybos_2
                     sum = sum + Array[i];
                 }
                 label1.Text = "Suma: " + sum.ToString();
+                count = 0;
             }
         }
 
