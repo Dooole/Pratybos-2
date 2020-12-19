@@ -66,18 +66,18 @@ namespace Pratybos_2
                 return;
             }
 
-            int tarpai = dydis;
-            for (int i = 0; i < dydis; i++)
+            int ntarpai = dydis;
+            for (int i = 1; i <= dydis; i++)
             {
-                String prefix = new String(' ', tarpai);
+                String prefix = new String(' ', ntarpai);
                 richTextBox1.Text = richTextBox1.Text + prefix;
 
-                for (int j = 0; j <= i; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     richTextBox1.Text = richTextBox1.Text + "* ";
                 }
                 richTextBox1.Text = richTextBox1.Text + "\n";
-                tarpai--;
+                ntarpai--;
             }
         }
 
